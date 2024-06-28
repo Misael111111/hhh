@@ -1,0 +1,112 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ajedrez</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+
+        header {
+            background-color: #141212;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        main {
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            background-color: #0c0101;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(247, 8, 8, 0.1);
+        }
+
+        .piece {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s ease;
+            width: 200px;
+        }
+
+        .piece:hover {
+            transform: translateY(-5px);
+        }
+
+        .piece img {
+            width: 80px;
+            height: 80px;
+            margin-bottom: 10px;
+        }
+
+        .piece h2 {
+            margin: 0;
+            color: #333;
+        }
+
+        .piece p {
+            margin: 0;
+            color: #666;
+        }
+    </style>
+</head>
+<body >
+<header>
+    <h1>Lo que debes saber sobre el Ajedrez</h1>
+</header>
+
+<main>
+    <div class="piece">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/Chess_klt45.svg" alt="Rey">
+        <h2>Rey</h2>
+        <p>El rey es la pieza más importante, pero también una de las más débiles. El rey sólo puede avanzar una casilla en cualquier dirección: hacia arriba, hacia abajo, hacia los lados o en diagonal. En ningún caso el rey puede moverse a una casilla en la que estaría en jaque, es decir, en la que pudiera ser capturado. Recuerda que cuando el rey está directamente amenazado por otra pieza, se dice que está "en jaque".</p>
+    </div>
+
+    <div class="piece">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/15/Chess_qlt45.svg" alt="Reina">
+        <h2>Reina</h2>
+        <p>La dama (reina) es la pieza más poderosa. Puede moverse en cualquier dirección (hacia adelante, hacia atrás, hacia los lados o en diagonal) y tantas casillas como se quiera; siempre y cuando no pase por encima de una pieza de su color. Como ocurre con todas las piezas, si la dama captura una pieza rival, su movimiento ha terminado. Observa cómo la dama blanca captura a la dama negra y obliga a moverse al rey negro.</p>
+    </div>
+
+    <div class="piece">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/72/Chess_rlt45.svg" alt="Torre">
+        <h2>Torre</h2>
+        <p>La torre puede moverse tantas casillas como quiera, pero sólo hacia adelante, hacia atrás o hacia los lados. ¡Las torres son piezas especialmente poderosas cuando trabajan juntas y se protegen mutuamente!</p>
+    </div>
+
+    <div class="piece">
+        <img src="img/alfil.png" alt="Alfil">
+        <h2>Alfil</h2>
+        <p>El alfil puede moverse tan lejos como quiera, pero siempre en diagonal. Cada alfil comienza en una casilla de un color (claro u oscuro) y debe permanecer toda la partida en ese color. Los dos alfiles trabajan bien juntos porque se cubren las debilidades mutuamente.</p>
+    </div>
+
+    <div class="piece">
+        <img src="img/caballo.png" alt="Caballo">
+        <h2>Caballo</h2>
+        <p>Los caballos se mueven de una manera muy diferente a la de las otras piezas: avanzan dos casillas en una dirección y luego una más en un ángulo de 90 grados, dibujando en su desplazamiento una letra "L" sobre el tablero. Los caballos también son las únicas piezas que pueden saltar sobre otras..</p>
+    </div>
+
+    <div class="piece">
+        <img src="img/peon.jpg" alt="Peón">
+        <h2>Peón</h2>
+        <p>Los peones tienen la particularidad de que se mueven y capturan de diferentes maneras: se mueven hacia adelante, pero capturan en diagonal. Los peones sólo pueden avanzar una casilla en cada jugada, a excepción de su primer movimiento en el que puedan avanzar dos casillas. Los peones sólo pueden capturar una casilla situada en diagonal y frente a ellos. Nunca pueden retroceder, ni siquiera para capturar una pieza. Los peones no pueden moverse si en su camino encuentran una pieza que ocupe la casilla situada directamente frente a ellos y tampoco pueden capturarla.</p>
+    </div>
+</main>
+
+</body>
+</html>
